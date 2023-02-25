@@ -13,6 +13,11 @@
       crossorigin="anonymous"
     />
     <style>
+      .header {
+        position: fixed;
+        top: 0;
+        width: 100%;
+      }
       .footer {
         position: fixed;
         bottom: 0;
@@ -24,31 +29,33 @@
     <title>Navayuga Premier League</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="/index.html">NPL</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNavAltMarkup"
-          aria-controls="navbarNavAltMarkup"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
-            <a class="nav-link active" aria-current="page" href="/index.html"
-              >Point Table</a
-            >
-            <a class="nav-link" href="/top-scorer.html">Top scorers</a>
-            <a class="nav-link" href="/history.html">Match History</a>
+    <header class="header">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="/index.html">NPL</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link active" aria-current="page" href="/index.html"
+                >Point Table</a
+              >
+              <a class="nav-link" href="/top-scorer.html">Top scorers</a>
+              <a class="nav-link" href="/history.html">Match History</a>
+            </div>
           </div>
         </div>
-      </div>
-    </nav>
+      </nav>
+    </header>
 
     <div class="container">
       <h1 class="text-center my-2 d-none d-md-block">
@@ -74,47 +81,47 @@
           </thead>
           <tbody>
             <tr>
-              <th>Club de Ensueno</th>
-              <td>2</td>
-              <td>2</td>
+              <th>Club de Enzueno</th>
+              <td>3</td>
+              <td>3</td>
               <td>0</td>
               <td>0</td>
-              <td>6</td>
-              <td>7</td>
-              <td>2</td>
-              <td>+5</td>
+              <td>9</td>
+              <td>12</td>
+              <td>5</td>
+              <td>+7</td>
             </tr>
             <tr>
               <th>Dragons FC</th>
-              <td>2</td>
+              <td>3</td>
               <td>1</td>
               <td>1</td>
-              <td>0</td>
+              <td>1</td>
               <td>4</td>
-              <td>6</td>
-              <td>5</td>
-              <td>+1</td>
+              <td>9</td>
+              <td>10</td>
+              <td>-1</td>
             </tr>
             <tr>
               <th>Falcons FC</th>
-              <td>2</td>
-              <td>0</td>
-              <td>1</td>
-              <td>1</td>
-              <td>1</td>
               <td>3</td>
-              <td>7</td>
+              <td>0</td>
+              <td>2</td>
+              <td>1</td>
+              <td>2</td>
+              <td>5</td>
+              <td>9</td>
               <td>-4</td>
             </tr>
             <tr>
               <th>Eagles FC</th>
+              <td>3</td>
+              <td>0</td>
+              <td>1</td>
               <td>2</td>
-              <td>0</td>
-              <td>0</td>
-              <td>2</td>
-              <td>0</td>
-              <td>4</td>
+              <td>1</td>
               <td>6</td>
+              <td>8</td>
               <td>-2</td>
             </tr>
           </tbody>
